@@ -8,6 +8,8 @@ namespace OperatorExercise
         {
             int a = 17;
             int b = 4;
+            int quotient = a / b;
+            int remainder = a % b;
 
             //addition
             int sum = a + b;
@@ -22,14 +24,18 @@ namespace OperatorExercise
             Console.WriteLine($"a * b = {prod}");
 
             //division
-            int div = a / b;
+            double div = a / b;
             Console.WriteLine($"a / b = {div}");
 
             //modulus
             int mod = a % b;
             Console.WriteLine($"a % b = {mod}");
 
-
+            if (a == 17 && b == 4) 
+            {
+                Console.WriteLine($"17/4 is 4 remainder 1");
+            }
+            
 
             //exercise 2
             Console.WriteLine("What is the radius of the circle?");
@@ -37,7 +43,7 @@ namespace OperatorExercise
 
             var circle = Math.PI * Math.Pow(radius, 2);
 
-            Console.WriteLine($"The area of the circle is {circle}");
+            Console.WriteLine($"The area of the circle is {circle}.");
         }
     }
 }
