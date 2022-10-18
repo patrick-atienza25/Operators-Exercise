@@ -11,38 +11,33 @@ namespace OperatorExercise
 
             //addition
             int sum = a + b;
-            Console.WriteLine(sum);
+            Console.WriteLine($"a + b = {sum}");
 
             //subtraction
             int sub = a - b;
-            Console.WriteLine(sub);
+            Console.WriteLine($"a - b = {sub}");
 
             //multiplication
-            int mult = a * b;
-            Console.WriteLine(mult);
+            int prod = a * b;
+            Console.WriteLine($"a * b = {prod}");
 
             //division
             int div = a / b;
-            Console.WriteLine(div);
+            Console.WriteLine($"a / b = {div}");
 
             //modulus
             int mod = a % b;
-            Console.WriteLine(mod);
+            Console.WriteLine($"a % b = {mod}");
 
-            int quotient = a / b;
-            int remainder = a % b;
 
-            if (a == 17 && b == 4);
-            Console.WriteLine({a} / {b} is {quotient} remainder {remainder});
 
-            var radius = double.Parse();
+            //exercise 2
+            Console.WriteLine("What is the radius of the circle?");
+            var radius = double.Parse(Console.ReadLine());
 
-           public static double AreaOfCircle(oduble radius)
-            {
-                var area = Math.PI * Math.Pow(2, radius);
+            var circle = Math.PI * Math.Pow(radius, 2);
 
-                return area;
-            }
+            Console.WriteLine($"The area of the circle is {circle}");
         }
     }
 }

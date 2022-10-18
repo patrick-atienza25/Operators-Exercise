@@ -1,0 +1,5 @@
+C:\Users\tange\repos\Operators-Exercise\OperatorExercise\obj\Release\net6.0\OperatorExercise.csproj.AssemblyReference.cache
+C:\Users\tange\repos\Operators-Exercise\OperatorExercise\obj\Release\net6.0\OperatorExercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tange\repos\Operators-Exercise\OperatorExercise\obj\Release\net6.0\OperatorExercise.AssemblyInfoInputs.cache
+C:\Users\tange\repos\Operators-Exercise\OperatorExercise\obj\Release\net6.0\OperatorExercise.AssemblyInfo.cs
+C:\Users\tange\repos\Operators-Exercise\OperatorExercise\obj\Release\net6.0\OperatorExercise.csproj.CoreCompileInputs.cache
