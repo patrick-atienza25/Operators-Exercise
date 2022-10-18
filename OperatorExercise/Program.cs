@@ -33,9 +33,8 @@ namespace OperatorExercise
 
             if (a == 17 && b == 4) 
             {
-                Console.WriteLine($"17/4 is 4 remainder 1");
+                Console.WriteLine($"{a} / {b} is {quotient} remainder {remainder}");
             }
-            
 
             //exercise 2
             Console.WriteLine("What is the radius of the circle?");
